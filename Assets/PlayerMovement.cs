@@ -31,6 +31,14 @@ public class PlayerMovement : MonoBehaviour
             velocity.y = -2f;
         }
 
+        // if (Input.GetKeyDown(KeyCode.LeftShift))
+        // {
+        //     Debug.Log("SHIFT");
+        //     speed = 24;
+        // } else {
+        //     speed = 12;
+        // }
+
         float x = Input.GetAxis("Horizontal");
         float z = Input.GetAxis("Vertical");
 
